@@ -25,9 +25,10 @@ Exemplos de             Entrada	Exemplos de Saída
 5.0                     MEDIA = 7.5
 
 """
+
 if __name__ == "__main__":
     a = float(input()) * 2
     b = float(input()) * 3
     c = float(input()) * 5
 
-    print(f"MEDIA = {(a+b+c)/10}")
+    print("MEDIA = {:.1f}".format((a+b+c)/10))
